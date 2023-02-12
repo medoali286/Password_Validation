@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Password_Validation</string>
+    <string name="type_your_password">Type your Password</string>
+    <string name="login">Login</string>
+</resources>
