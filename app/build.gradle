@@ -5,6 +5,9 @@ plugins {
 android {
     namespace 'com.cst2335.password_validation'
     compileSdk 33
+    buildFeatures{
+        viewBinding true
+    }
 
     defaultConfig {
         applicationId "com.cst2335.password_validation"
@@ -29,6 +32,8 @@ android {
 }
 
 dependencies {
+    implementation 'com.android.volley:volley:1.2.1'
+
 
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'com.google.android.material:material:1.8.0'
